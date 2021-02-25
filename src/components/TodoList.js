@@ -42,7 +42,7 @@ function TodoList(){
 	};
 
 	return (
-		<div>
+		<div className="todo-app">
 			<h1> Apa rencanamu Hari ini?</h1>
 			<TodoForm onSubmit={addTodo} />
 			<Todo 
